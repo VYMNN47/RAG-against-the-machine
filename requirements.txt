@@ -1,0 +1,15 @@
+# RAG System Dependencies
+
+# Document loading and chunking
+langchain-community>=0.0.20
+langchain-text-splitters>=0.0.1
+
+# Embeddings
+sentence-transformers>=2.2.0
+
+# Vector database
+chromadb>=0.4.0
+
+# Core dependencies (usually installed automatically)
+torch>=2.0.0
+transformers>=4.30.0
